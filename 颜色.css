@@ -1,6 +1,12 @@
 h1 {
     color:red
 }
+input{
+    color:red;
+    background-color: linen;
+    border-color: red;
+    border-radius: 4px;
+}
 .a {
     color:green
 }
@@ -24,10 +30,4 @@ a:active {
 }
 body {
     background-color:linen
-}
-input {
-    color:red;
-    background-color: linen;
-    border-color: red;
-    border-radius: 4px;
 }
