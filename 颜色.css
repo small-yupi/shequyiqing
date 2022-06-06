@@ -22,3 +22,6 @@ a:hover{
 a:active{
     color:rgba(255, 0, 0, 0.608)
 }
+body{
+    background-color:linen
+}
