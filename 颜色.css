@@ -31,3 +31,15 @@ a:active {
 body {
     background-color:linen
 }
+select{
+    color:red;
+    background-color: linen;
+    border-color: red;
+    border-radius: 4px;
+}
+textarea{
+    color:red;
+    background-color: linen;
+    border-color: red;
+    border-radius: 4px;
+}
