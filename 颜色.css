@@ -1,31 +1,31 @@
-h1{
+h1 {
     color:red
 }
-.a{
+.a {
     color:green
 }
-.b{
+.b {
     color:yellow
 }
-.c{
+.c {
     color:red
 }
-a:link{
+a:link {
     color:skyblue
 }
-a:visited{
+a:visited {
     color:skyblue
 }
-a:hover{
+a:hover {
     color:rgba(255, 0, 0, 0.936)
 }
-a:active{
+a:active {
     color:rgba(255, 0, 0, 0.608)
 }
-body{
+body {
     background-color:linen
 }
-input{
+input {
     color:red;
     background-color: linen;
     border-color: red;
