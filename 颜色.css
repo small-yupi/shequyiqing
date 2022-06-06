@@ -10,3 +10,15 @@ h1{
 .c{
     color:red
 }
+a:link{
+    color:skyblue
+}
+a:visited{
+    color:skyblue
+}
+a:hover{
+    color:rgba(255, 0, 0, 0.936)
+}
+a:active{
+    color:rgba(255, 0, 0, 0.608)
+}
