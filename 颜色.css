@@ -43,3 +43,6 @@ textarea{
     border-color: red;
     border-radius: 4px;
 }
+strong {
+    font-style: italic
+}
