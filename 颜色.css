@@ -46,14 +46,6 @@ textarea{
 strong {
     font-style: italic
 }
-button{
-    background-color: linen;
-    color: red;
-    width: 65px;
-    border-color:red;
-    line-height: 40px;
-    border-radius: 4px;
-}
 .f{
     background-color: linen;
     color: red;
