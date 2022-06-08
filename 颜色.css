@@ -1,35 +1,35 @@
-h1 {
+h1{
     color:red
+}
+.a{
+    color:green
+}
+.b{
+    color:yellow
+}
+.c{
+    color:red
+}
+a:link{
+    color:skyblue
+}
+a:visited{
+    color:skyblue
+}
+a:hover{
+    color:rgba(255, 0, 0, 0.936)
+}
+a:active{
+    color:rgba(255, 0, 0, 0.608)
+}
+body{
+    background-color:linen
 }
 input{
     color:red;
     background-color: linen;
     border-color: red;
     border-radius: 4px;
-}
-.a {
-    color:green
-}
-.b {
-    color:yellow
-}
-.c {
-    color:red
-}
-a:link {
-    color:skyblue
-}
-a:visited {
-    color:skyblue
-}
-a:hover {
-    color:rgba(255, 0, 0, 0.936)
-}
-a:active {
-    color:rgba(255, 0, 0, 0.608)
-}
-body {
-    background-color:linen
 }
 select{
     color:red;
@@ -45,4 +45,20 @@ textarea{
 }
 strong {
     font-style: italic
+}
+button{
+    background-color: linen;
+    color: red;
+    width: 65px;
+    border-color:red;
+    line-height: 40px;
+    border-radius: 4px;
+}
+.f{
+    background-color: linen;
+    color: red;
+    width: 65px;
+    border-color:red;
+    line-height: 40px;
+    border-radius: 4px;
 }
