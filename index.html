@@ -1,45 +1,33 @@
-<!-- 程序开始 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>   
     <meta charset="UTF-8">   
-    <!-- 设置网站名称 -->
     <title>社区疫情填写</title>
-    <!-- 启动CSS文件 -->
     <link rel="stylesheet" href="颜色.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=微软简隶书">
     <link rel="shortcut icon" href="src=http___en.pimg.jp_019_963_336_1_19963336.jpg&refer=http___en.pimg.ico">
 </head>
-    <!-- 标题 -->
     <h1 align="center">社区疫情情况报告(测试)</h1>
-    <!-- 设置锚点跳转链接 -->
     <div align="center" title="跳转">
         <a href="#box1"><h3>表单填写</h3></a>
         <a href="#002"><h3>其他服务</h3></a>
         <a href="https://small-yupi.github.io/shequyiqing/社区疫情表单_old.html"><h3>返回旧版</h3></a>
     </div>
-    <!-- 设置图片 -->
     <p align="center"><img src="c60c3f0df594a6b59621a2f425759b30.jpeg" alt="" usemap="#001"> <br> <br></p>
-    <!-- 设置点击图片的效果 -->
     <map name="001"><area shape="default" href="c60c3f0df594a6b59621a2f425759b30.jpeg" alt=""></map>
-    <!-- p标签设置锚点的跳转处 -->
     <p id="box1">
         <h3>基本信息</h3>
-        <!-- from标签创建表单 -->
         <form method="post" target="_blank" action="https://small-yupi.github.io/shequyiqing/疫情表单接收.html">
-            <!-- fieldset标签设置表单的一个类 -->
             <fieldset>
                 请输入姓名:<input type="text"> <br> <br>
                 请输入身份证号:<input type="password"> <br> <br>
                 请输入电话号码:<input type="password"> <br> <br>
                 请输入所在小区:<input type="text"> <br> <br>
                 请上传身份证正反面图片:<input type="file"> <input type="file"> <br> <br>
-                <!-- 单选,radio,使用class选择器来让CSS定位 -->
                 你的吉祥码颜色是:
                 <div class="a" style="display:inline-block"><input type="radio" name="gender" checked>绿色</div>
                 <div class="b" style="display:inline-block"><input type="radio" name="gender">黄色</div>
                 <div class="c" style="display:inline-block"><input type="radio" name="gender">红色</div> <br> <br> 
-                <!-- 单选,radio -->
                 你最近有没有以下症状:<br> 
                 <div class="a">
                     <input type="checkbox" >健康 
@@ -66,17 +54,14 @@
                     <option>公主岭市</option>
                     <option>白山市</option>
                 </select> <br> <br>
-                <!-- 大输入框textarea -->
                 请输入详细地址: <br> <br> <textarea cols="50" rows="5"></textarea> <br> <br>
             </fieldset>
-            <!-- form标签第二个类 -->
             <h3>其他信息</h3>
             <fieldset>
                 请输入你对疫情防控的建议:(可选) <br> <br> <textarea cols="50" rows="5">说说你的意见吧~</textarea>
             </fieldset> <br>
         <input type="submit" onclick="alert('提交成功');" class="f"> <input type="reset" onclick="alert('重置成功');" class="f"> <br>
             感谢您为疫情防控所做的努力,谢谢配合! <br> <br>
-            <!-- strong表示加粗,且语义感比b标签好,非常重要。 -->
             <strong>
                 <div class="c">注:此次问卷调查的所有个人信息作者会尽量防止窃取,
                 但不一定保证网站不会被攻击!!!</div>
@@ -85,15 +70,12 @@
                 请勿进行攻击,有些漏洞作者还不会修... <br>
                 作者微信:wxid_65ccqeungkg222(微信昵称:张仕杰) <!-- 邮箱: zsj20143688@163.com -->
             </strong> <br> <br> <br>
-            版本号:0.2.1(0.1.1以前的版本在线下更新和测试)
+            版本号:0.2.1(0.1.1以前的版本在线下更新和测试) <!-- 0.2.1引入页面图标 -->
             <a href="https://github.com/small-yupi/shequyiqing" title="已开源">查看项目(github)</a>
-        <!-- form标签结束 -->
         </form>
-        <!-- 锚点的第二个跳转地点 -->
     </p>
     <p id="002">
-        <!-- 设置超链接 -->
-                    <h3 align="center">其他服务</h3> <br> <br>
+            <h3 align="center">其他服务</h3> <br> <br>
             <div align="center">
                 ----------*-*-*-*
                 <a href="https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_aladin_banner&city=%E5%8C%97%E4%BA%AC-%E5%8C%97%E4%BA%AC">实时疫情</a>
@@ -106,6 +88,5 @@
 
 <body>
     <script src="逻辑.js"></script>
-    <!-- 代码结束 -->
 </body>
 </html>
